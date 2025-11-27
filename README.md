@@ -1,4 +1,4 @@
-# Self-Learning Projects Repository 😍
+# Self-Learning Projects Repository 🎲
 
 Welcome to the self-learning projects repository! This repository is designed to help you practice and improve your programming skills across various technologies and languages.
 
