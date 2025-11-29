@@ -1,11 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        Weapon sword = new Weapon("Excalibur", 10);
-        Weapon staff = new Weapon("Ancient Staff", 10);
-
-        GameCharacter hero = new Warrior("Conan", sword);
-        GameCharacter villain = new Mage("Saruman", staff);
-
-        Arena.startDuel(hero, villain);
+        // TODO: Create two Weapon objects
+        // - Sword: "Excalibur" with 10 damage
+        // - Staff: "Ancient Staff" with 10 damage
+        
+        // TODO: Create a Warrior named "Conan" with the sword
+        
+        // TODO: Create a Mage named "Saruman" with the staff
+        
+        // TODO: Call Arena.startDuel() with both characters
     }
 }

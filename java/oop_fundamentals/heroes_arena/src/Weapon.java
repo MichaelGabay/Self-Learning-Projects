@@ -1,12 +1,7 @@
 class Weapon {
-    private String name;
-    private int damage;
-
-    public Weapon(String name, int damage) {
-        this.name = name;
-        this.damage = damage;
-    }
-
-    public int getDamage() { return damage; }
-    public String getName() { return name; }
+    // TODO: Add private fields for name (String) and damage (int)
+    
+    // TODO: Create constructor that takes name and damage as parameters
+    
+    // TODO: Add getter methods: getDamage() and getName()
 }
