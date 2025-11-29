@@ -1,5 +1,3 @@
-package oop_fundamentals.heroes_arena;
-
 public class Main {
     public static void main(String[] args) {
         Weapon sword = new Weapon("Excalibur", 10);

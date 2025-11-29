@@ -1,5 +1,3 @@
-package oop_fundamentals.heroes_arena;
-
 class Weapon {
     private String name;
     private int damage;

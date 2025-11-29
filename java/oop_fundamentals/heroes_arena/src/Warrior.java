@@ -1,5 +1,3 @@
-package oop_fundamentals.heroes_arena;
-
 class Warrior extends GameCharacter {
 
     public Warrior(String name, Weapon weapon) {

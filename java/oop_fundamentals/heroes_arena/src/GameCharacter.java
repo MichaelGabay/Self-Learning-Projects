@@ -1,5 +1,3 @@
-package oop_fundamentals.heroes_arena;
-
 abstract class GameCharacter {
     protected String name;
     private int hp; 

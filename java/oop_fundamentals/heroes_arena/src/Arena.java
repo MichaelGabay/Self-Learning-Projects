@@ -1,4 +1,3 @@
-package oop_fundamentals.heroes_arena;
 
 class Arena {
     

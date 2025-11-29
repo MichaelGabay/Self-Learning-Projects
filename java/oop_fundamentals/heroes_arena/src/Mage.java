@@ -1,5 +1,3 @@
-package oop_fundamentals.heroes_arena;
-
 import java.util.Random;
 
 class Mage extends GameCharacter implements Healable {
