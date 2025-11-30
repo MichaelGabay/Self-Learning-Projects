@@ -23,18 +23,17 @@ Your project should be organized as follows:
 heroes_arena/
 ├── README.md
 └── src/
-    └── oop_fundamentals/
-        └── heroes_arena/
-            ├── Main.java
-            ├── Weapon.java
-            ├── GameCharacter.java
-            ├── Healable.java
-            ├── Warrior.java
-            ├── Mage.java
-            └── Arena.java
+   ├── Main.java
+   ├── Weapon.java
+   ├── GameCharacter.java
+   ├── Healable.java
+   ├── Warrior.java
+   ├── Mage.java
+   └── Arena.java
 ```
 
 **Important:** All your Java files should have the package declaration:
+
 ```java
 package oop_fundamentals.heroes_arena;
 ```
@@ -48,6 +47,7 @@ package oop_fundamentals.heroes_arena;
 Create a `Weapon.java` file that represents weapons in the game.
 
 **The Task:**
+
 1. Create a class called `Weapon`.
 2. Add two **private** fields: `name` (String) and `damage` (int).
 3. Create a constructor that takes `name` and `damage` as parameters and initializes the fields.
@@ -62,6 +62,7 @@ Create a `Weapon.java` file that represents weapons in the game.
 Create an interface that defines the ability to heal.
 
 **The Task:**
+
 1. Create an interface called `Healable`.
 2. Add one method declaration: `void heal()` (no implementation, just the method signature).
 
@@ -74,6 +75,7 @@ Create an interface that defines the ability to heal.
 Create an abstract base class for all game characters.
 
 **The Task:**
+
 1. Create an **abstract** class called `GameCharacter`.
 2. Add the following fields:
    - `protected String name`
@@ -97,6 +99,7 @@ Create an abstract base class for all game characters.
 Create a concrete class that extends `GameCharacter`.
 
 **The Task:**
+
 1. Create a class called `Warrior` that **extends** `GameCharacter`.
 2. Create a constructor that takes `name` and `weapon` as parameters.
 3. In the constructor, call `super()` with: `name`, `150` (HP), `10` (power), and `weapon`.
@@ -115,6 +118,7 @@ Create a concrete class that extends `GameCharacter`.
 Create a class that extends `GameCharacter` and implements `Healable`.
 
 **The Task:**
+
 1. Create a class called `Mage` that **extends** `GameCharacter` and **implements** `Healable`.
 2. Import `java.util.Random` at the top of the file.
 3. Create a constructor that takes `name` and `weapon` as parameters.
@@ -140,6 +144,7 @@ Create a class that extends `GameCharacter` and implements `Healable`.
 Create a class that manages the battle between two characters.
 
 **The Task:**
+
 1. Create a class called `Arena`.
 2. Create a **static** method `startDuel(GameCharacter p1, GameCharacter p2)`:
    - Print a battle start message with both character names
@@ -167,6 +172,7 @@ Create a class that manages the battle between two characters.
 Create the entry point that starts the game.
 
 **The Task:**
+
 1. Create a `public class Main` with a `main` method.
 2. Create two `Weapon` objects:
    - A sword named "Excalibur" with 10 damage
@@ -182,11 +188,13 @@ Create the entry point that starts the game.
 ## 🚀 How to Compile and Run
 
 1. **Navigate to the project directory:**
+
    ```bash
    cd java/oop_fundamentals/heroes_arena
    ```
 
 2. **Compile all Java files:**
+
    ```bash
    javac src/oop_fundamentals/heroes_arena/*.java
    ```
@@ -198,11 +206,11 @@ Create the entry point that starts the game.
 
 ### Using an IDE
 
-- **IntelliJ IDEA / Eclipse**: 
+- **IntelliJ IDEA / Eclipse**:
   - Open the `heroes_arena` folder as the project root
   - Mark `src` as the source root
   - Right-click `Main.java` → Run
-- **VS Code**: 
+- **VS Code**:
   - Install Java extensions
   - Open the `heroes_arena` folder
   - Click "Run" above the `main` method
